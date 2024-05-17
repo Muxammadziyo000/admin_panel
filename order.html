@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+    <section class="section_header">
+        <div class="header">
+            <h1>Admin-panel</h1>
+            <div class="links">
+                <a href="./index.html"><img src="./img/icons8-главная-64.png" alt=""><span>Главная страница</span></a>
+                <a href="./settings.html"><img src="./img/icons8-настройки-50.png" alt=""><span>Настройки</span> </a>
+                <a href="./order.html"><img
+                        src="./img/icons8-внешний-стол-и-стулья-в-ресторане-доступны-для-бронирования-ресторан-обычный-tal-revivo-24.png"
+                        alt=""><span>Бронирования мест</span></a>
+                <a href="#"><img src="./img/icons8-поддержка-50.png" alt=""><span>Поддержка</span> </a>
+                <a href="#"><img src="./img/icons8-пользователи-50.png" alt=""><span>Пользователи</span> </a>
+                <a href="#"><img src="./img/icons8-комментарий-50.png" alt=""><span>Отзывы</span> </a>
+            </div>
+        </div>
+    </section>
+    <section class="section_order">
+        <div class="order">
+            <h1>Заявки на бронь</h1>
+            <form>
+                <fieldset>
+                    <label for="nameField">Номер заказа</label>
+                    <input type="number" placeholder="Заявка №" id="nameField">
+                    <label for="nameField">Покупатель</label>
+                    <input type="number" placeholder="Покупатель" id="nameField">
+                    <label for="commentField">Время на которое вы бронируете</label>
+                    <textarea placeholder="0:15,1:00" id="commentField"></textarea>
+                    <label for="commentField">Ваш email</label>
+                    <textarea placeholder="superhero@gmail.com" id="nameField"></textarea>
+                    <input class="button-primary order_button" type="submit" value="Забронировать">
+                </fieldset>
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Time</th>
+                        <th>Prise</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Stephen Curry</td>
+                        <td>27</td>
+                        <td>1,91</td>
+                        <td>Akron, OH</td>
+                    </tr>
+                    <tr>
+                        <td>Klay Thompson</td>
+                        <td>25</td>
+                        <td>2,01</td>
+                        <td>Los Angeles, CA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>

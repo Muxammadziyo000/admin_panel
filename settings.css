@@ -1,0 +1,28 @@
+.section_settings {
+    position: fixed;
+    width: 94vw;
+    margin-left: 7vw;
+    height: 100vh;
+    overflow: scroll;
+
+    h1 {
+        color: #000;
+        text-align: center;
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 600;
+
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    img {
+        border-radius: 8px;
+        width: 200px;
+        height: 150px;
+    }
+
+
+}
